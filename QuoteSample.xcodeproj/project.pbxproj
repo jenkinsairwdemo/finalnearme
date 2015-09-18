@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1A62551BAC888A003CF740 /* ios7_app_icon_ipad-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A624E1BAC888A003CF740 /* ios7_app_icon_ipad-1.png */; };
+		1A1A62561BAC888A003CF740 /* ios7_app_icon_ipad@2x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A624F1BAC888A003CF740 /* ios7_app_icon_ipad@2x-1.png */; };
+		1A1A62571BAC888A003CF740 /* ios7_app_icon_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A62501BAC888A003CF740 /* ios7_app_icon_iphone@2x.png */; };
+		1A1A62581BAC888A003CF740 /* ios7_app_icon_iphone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A62511BAC888A003CF740 /* ios7_app_icon_iphone@3x.png */; };
+		1A1A62591BAC888A003CF740 /* ios7_settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A62521BAC888A003CF740 /* ios7_settings_icon.png */; };
+		1A1A625A1BAC888A003CF740 /* ios7_spotlight_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A62531BAC888A003CF740 /* ios7_spotlight_icon.png */; };
+		1A1A625B1BAC888A003CF740 /* ios7_spotlight_icon@2x-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A62541BAC888A003CF740 /* ios7_spotlight_icon@2x-1.png */; };
 		1B1A180D18BF4B0C00CD23BE /* QuoteHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A180C18BF4B0C00CD23BE /* QuoteHomeViewController.m */; };
 		1B1A181718BFC7BF00CD23BE /* OrderHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A181618BFC7BF00CD23BE /* OrderHomeViewController.m */; };
 		1B1A181A18BFCC4800CD23BE /* ProductHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A181918BFCC4800CD23BE /* ProductHomeViewController.m */; };
@@ -96,6 +103,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A1A624E1BAC888A003CF740 /* ios7_app_icon_ipad-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ios7_app_icon_ipad-1.png"; path = "Images.xcassets/AppIcon.appiconset/ios7_app_icon_ipad-1.png"; sourceTree = "<group>"; };
+		1A1A624F1BAC888A003CF740 /* ios7_app_icon_ipad@2x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ios7_app_icon_ipad@2x-1.png"; path = "Images.xcassets/AppIcon.appiconset/ios7_app_icon_ipad@2x-1.png"; sourceTree = "<group>"; };
+		1A1A62501BAC888A003CF740 /* ios7_app_icon_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ios7_app_icon_iphone@2x.png"; path = "Images.xcassets/AppIcon.appiconset/ios7_app_icon_iphone@2x.png"; sourceTree = "<group>"; };
+		1A1A62511BAC888A003CF740 /* ios7_app_icon_iphone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ios7_app_icon_iphone@3x.png"; path = "Images.xcassets/AppIcon.appiconset/ios7_app_icon_iphone@3x.png"; sourceTree = "<group>"; };
+		1A1A62521BAC888A003CF740 /* ios7_settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ios7_settings_icon.png; path = Images.xcassets/AppIcon.appiconset/ios7_settings_icon.png; sourceTree = "<group>"; };
+		1A1A62531BAC888A003CF740 /* ios7_spotlight_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ios7_spotlight_icon.png; path = Images.xcassets/AppIcon.appiconset/ios7_spotlight_icon.png; sourceTree = "<group>"; };
+		1A1A62541BAC888A003CF740 /* ios7_spotlight_icon@2x-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ios7_spotlight_icon@2x-1.png"; path = "Images.xcassets/AppIcon.appiconset/ios7_spotlight_icon@2x-1.png"; sourceTree = "<group>"; };
 		1B15819618D98178000BF6CA /* constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constant.h; sourceTree = "<group>"; };
 		1B1A180B18BF4B0C00CD23BE /* QuoteHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteHomeViewController.h; sourceTree = "<group>"; };
 		1B1A180C18BF4B0C00CD23BE /* QuoteHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuoteHomeViewController.m; sourceTree = "<group>"; };
@@ -305,6 +319,13 @@
 		C6A3105718A0F6D700916A1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1A1A624E1BAC888A003CF740 /* ios7_app_icon_ipad-1.png */,
+				1A1A624F1BAC888A003CF740 /* ios7_app_icon_ipad@2x-1.png */,
+				1A1A62501BAC888A003CF740 /* ios7_app_icon_iphone@2x.png */,
+				1A1A62511BAC888A003CF740 /* ios7_app_icon_iphone@3x.png */,
+				1A1A62521BAC888A003CF740 /* ios7_settings_icon.png */,
+				1A1A62531BAC888A003CF740 /* ios7_spotlight_icon.png */,
+				1A1A62541BAC888A003CF740 /* ios7_spotlight_icon@2x-1.png */,
 				C67609EF18A2761400BAC60D /* License.txt */,
 				1B2825A41917E2B800EC09A4 /* License.txt */,
 				C6A3109618A107C900916A1A /* Localizable.strings.h */,
@@ -565,16 +586,22 @@
 				C6A3105B18A0F6D700916A1A /* InfoPlist.strings in Resources */,
 				1B4773F718C5BFDF005E1A9C /* MainTableViewCellForIPhone.xib in Resources */,
 				C6760A0918A282E200BAC60D /* HomeViewController.xib in Resources */,
+				1A1A62591BAC888A003CF740 /* ios7_settings_icon.png in Resources */,
 				1BC243A418C7B14D00D1E15B /* ProductSubView.xib in Resources */,
+				1A1A62551BAC888A003CF740 /* ios7_app_icon_ipad-1.png in Resources */,
 				C6A3113818A11CDE00916A1A /* SignInViewController.xib in Resources */,
+				1A1A62561BAC888A003CF740 /* ios7_app_icon_ipad@2x-1.png in Resources */,
 				1BC243B118C878F500D1E15B /* SettingsTableViewCell.xib in Resources */,
 				1BACC98B18AA716E00D87C0F /* MainTableViewCell.xib in Resources */,
 				1B4773FC18C5C672005E1A9C /* KinveyImageView.xib in Resources */,
 				1BC243AC18C8656500D1E15B /* SettingsSubView.xib in Resources */,
 				C6A3109C18A107F900916A1A /* Localizable.strings in Resources */,
 				1B9F390518B1E9EC0089B813 /* ComboBoxNewQuoteTableViewCell.xib in Resources */,
+				1A1A625A1BAC888A003CF740 /* ios7_spotlight_icon.png in Resources */,
+				1A1A62571BAC888A003CF740 /* ios7_app_icon_iphone@2x.png in Resources */,
 				1BACC98618AA5F0400D87C0F /* MainTableHeaderView.xib in Resources */,
 				C67609FF18A2826400BAC60D /* NewQuoteViewController.xib in Resources */,
+				1A1A62581BAC888A003CF740 /* ios7_app_icon_iphone@3x.png in Resources */,
 				1B4773F218C5B783005E1A9C /* MainTableHeaderViewForIPhone.xib in Resources */,
 				1B2825A51917E2B800EC09A4 /* License.txt in Resources */,
 				C6A3106318A0F6D700916A1A /* Images.xcassets in Resources */,
@@ -584,6 +611,7 @@
 				C6A3108018A0F71B00916A1A /* MainWindow.xib in Resources */,
 				D367641F1BA8745D007AD727 /* LaunchScreen.xib in Resources */,
 				1BAECC8118E43DE1007B83BE /* AboutViewController.xib in Resources */,
+				1A1A625B1BAC888A003CF740 /* ios7_spotlight_icon@2x-1.png in Resources */,
 				1B4773E818C4634D005E1A9C /* ProductCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

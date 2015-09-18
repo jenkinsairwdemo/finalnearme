@@ -8,6 +8,15 @@
 	<string>Near Me</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>ios7_app_icon_ipad-1.png</string>
+		<string>ios7_app_icon_ipad@2x-1.png</string>
+		<string>ios7_app_icon_iphone@2x.png</string>
+		<string>ios7_app_icon_iphone@3x.png</string>
+		<string>ios7_spotlight_icon.png</string>
+		<string>ios7_spotlight_icon@2x.png</string>
+	</array>
 	<key>CFBundleIdentifier</key>
 	<string>com.seinternal.nearme</string>
 	<key>CFBundleInfoDictionaryVersion</key>
