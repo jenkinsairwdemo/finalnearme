@@ -49,7 +49,12 @@
     
     
     //------------------------------------------------------------------------------//
-
+    //Kinvey: Setup configuration for Connect
+    [KCSClient configureLoggingWithNetworkEnabled:YES
+                                     debugEnabled:YES
+                                     traceEnabled:YES
+                                   warningEnabled:YES
+                                     errorEnabled:YES];
     
 	
 #endif
