@@ -45,12 +45,18 @@
 #ifdef DEBUG
 #endif
 #if 0
-    //Kinvey: Setup configuration
-	[KCSClient configureLoggingWithNetworkEnabled:YES
-									 debugEnabled:YES
-									 traceEnabled:YES
-								   warningEnabled:YES
-									 errorEnabled:YES];
+    //---------------------------Kinvey: Setup configuration-------------------------//
+    
+    
+    //------------------------------------------------------------------------------//
+    //Kinvey: Setup configuration for Connect
+    [KCSClient configureLoggingWithNetworkEnabled:YES
+                                     debugEnabled:YES
+                                     traceEnabled:YES
+                                   warningEnabled:YES
+                                     errorEnabled:YES];
+    
+	
 #endif
 
 	//Kinvey: Start push service
