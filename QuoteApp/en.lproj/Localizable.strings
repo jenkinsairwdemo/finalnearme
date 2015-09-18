@@ -1,0 +1,131 @@
+/*
+ * Localizable.strings
+ * ST
+ *
+ /**
+ * Copyright (c) 2014 Kinvey Inc. *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License. You may obtain a copy of the License at *
+ * http://www.apache.org/licenses/LICENSE-2.0 *
+ * Unless required by applicable law or agreed to in writing, software distributed under the License
+ * is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+ * or implied. See the License for the specific language governing permissions and limitations under
+ * the License. *
+ */
+
+"LANG"="en";
+
+
+"YOU"="You";
+"LATER"="later";
+"ERROR"="Error";
+
+"CANCEL"="Cancel";
+"CLOSE"="Close";
+
+"OKAY"="OK";
+"EDIT"="Edit";
+"DONE"="Done";
+
+"ERR_SMTH_WENT_WRONG"="Something went wrong";
+
+//SignInViewController
+"SIVC_TITLE"="Sign In";
+"SIVC_SIGNUP"="Register";
+"SIVC_LOGIN"="Log In";
+"SIVC_USERNAME"="username";
+"SIVC_PASSWORD"="password";
+
+//TabBarController
+"TBC_PRODUCTS"="Catalog";
+"TBC_QUOTE"="Opportunities";
+"TBC_ORDER"="At Risk";
+"TBC_NEW_QUOTES"="New Opportunity";
+"TBC_ABOUT"="About";
+"TBC_SETTINGS"="Settings";
+
+//SettingViewController
+"SVC_CELL_TITLE_CONTACT"="Contact Name";
+"SVC_CELL_PLACEHOLDER_CONTACT"="John Smith";
+"SVC_CELL_TITLE_COMPANY"="Company";
+"SVC_CELL_PLACEHOLDER_COMPANY"="Kinvey";
+"SVC_CELL_TITLE_ACCOUNT_NUMBER"="Account Number";
+"SVC_CELL_TITLE_PHONE"="Phone";
+"SVC_CELL_PLACEHOLDER_PHONE"="+1234567890";
+"SVC_CELL_TITLE_EMAIL"="E-mail";
+"SVC_CELL_PLACEHOLDER_EMAIL"="example@email.com";
+"SVC_PUSH_LABEL"="Push Notification";
+"SVC_EMAIL_CONFIRMATION_LABEL"="Email Confirmation on New Order";
+"SVC_BUTTON_LOGOUT"="Logout";
+"SVC_NOT_VALID_EMAIL_MESSAGE" = "Please enter valid email before turning email confirmations on.";
+"SVC_NOT_VALID_EMAIL_MESSAGE_EDIT" = "Email is not valid!";
+
+//Detail View
+"DV_PRODUCT_TITLE"="Product: ";
+"DV_REFERENCE_NUMBER"="Customer: ";
+"DV_ACTIVE_USER"="Location: ";
+"DV_BUSINESS_LOGIC_SCRIPTS"="Opportunity Size: ";
+"DV_SCHEDULED_BUSINESS_LOGIC"="Project Timeline: ";
+"DV_COLLABORATORS"="Primary Contact Name: ";
+"DV_BACKEND_ENVIRONMENTS"="Address: ";
+"DV_DATA_STORAGE"="Phone: ";
+"DV_BUSINESS_EXECUTION_TIME_LIMIT"="Email: ";
+"DV_START_SUBSCRIPTION_DATE"="Project Details: ";
+"DV_TOTAL_COST"="Project Details: ";
+"DV_ORDER_TITLE"="Opportunity Details";
+"DV_QUOTE_TITLE"="Opportunity Details";
+"DV_MESSAGE_ERROR_CREATE_QUOTE"="Error create qoute";
+"DV_MESSAGE_ORDER_CONFIRMATION_TITLE"="Order Confirmation";
+"DV_MESSAGE_ORDER_CONFIRMATION_TEXT"="Your Order has been received.";
+"DV_MESSAGE_ERROR_CREATE_ORDER"="Error create order";
+"DV_BUTTON_RECREATE_ORDER"="";
+"DV_BUTTON_SUBMIT_ORDER"=""; // TODO(Brian): Is this the right thing to do here?
+
+//New Quote View Controller
+"NQV_PLACEHOLDER_PRODUCT"="Product (required)";
+"NQV_PLACEHOLDER_ACTIVE_USER"="Active User (required)";
+"NQV_PLACEHOLDER_BUSINESS_LOGIC_SCRIPTS"="Business Logic Scripts (required)";
+"NQV_PLACEHOLDER_SCHEDULED_BUSINESS_LOGIC"="Scheduled Business Logic (required)";
+"NQV_PLACEHOLDER_COLLABORATORS"="Collaborators (required)";
+"NQV_PLACEHOLDER_BACKEND_ENVIROMENTS"="Backend Environments (required)";
+"NQV_PLACEHOLDER_DATA_STOREGE"="Data Storage (required)";
+"NQV_PLACEHOLDER_BUSINESS_LOGIC_EXECUTION_TIME_LIMIT"="Business Logic Execution Time Limit (required)";
+"NQV_PLACEHOLDER_START_SUBSCRIPTION_DATE"="Start Subscription Date (required)";
+"NQV_BUTTON_SUBMIT"="Submit";
+"NQV_TITLE"="Request a New Quote";
+"NQV_TOP_BAR_TITLE"="New Quote";
+
+//Main Table View Header
+"MTVH_TITLE_ORDER"="My Orders";
+"MTVH_DATE_ORDER"="Customer";
+"MTVH_NO_ORDER"="Location";
+"MTVH_START_SUBSCRIPTION_DATE"="Opp Size";
+"MTVH_STATUS_ORDER"="Project Timeline";
+"MTVH_MORE_ORDER"="More";
+"MTVH_TITLE_QUOTE"="Opportunities";
+"MTVH_DATE_QUOTE"="Customer";
+"MTVH_NO_QUOTE"="Location";
+"MTVH_PRICE_QUOTE"="Project Timeline";
+"MTVH_MORE_QUOTE"="More";
+
+//Home and Search View Controller
+"HaSVC_LEBEL_COUNT_RESULT"="Search %d items";
+
+//Quote Home View Controller
+"QHVC_CELL_NO_QUOTE"="You have no quote";
+"QHVC_REFRESH_CONTROL_TITLE"="Update quote list";
+"QHVC_TITLE"="Customers Nearby";
+
+//Order Home View Controller
+"OHVC_CELL_NO_ORDER"="You have no order";
+"OHVC_REFRESH_CONTROL_TITLE"="Update order list";
+"OHVC_TITLE"="At-Risk Opps";
+
+//Product Home View Controller
+"PHVC_CELL_NO_PRODUCTS"="No product";
+"PHVC_REFRESH_CONTROL_TITLE"="Update product list";
+"PHVC_TITLE"="Products";
+"PHVC_BUTTON_NEW_QUOTE"="New Quote";
+
+//About View Controller
+"AVC_TITLE"="About";

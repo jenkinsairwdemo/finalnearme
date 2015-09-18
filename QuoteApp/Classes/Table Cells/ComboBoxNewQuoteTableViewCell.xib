@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ComboBoxNewQuoteTableViewCell">
+            <connections>
+                <outlet property="image" destination="naW-Na-TWD" id="4mA-Kc-fzb"/>
+                <outlet property="minusButton" destination="fxP-go-Ewh" id="c0D-C6-pdW"/>
+                <outlet property="plusButton" destination="rKv-mT-cLL" id="D3J-7Q-1iY"/>
+                <outlet property="textField" destination="OEm-k8-Yvr" id="b3c-AP-sqi"/>
+                <outlet property="title" destination="CLc-WN-wOH" id="jkZ-BK-Z1d"/>
+                <outlet property="view" destination="BLy-Gc-pcR" id="zDi-CI-DKB"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="BLy-Gc-pcR">
+            <rect key="frame" x="0.0" y="0.0" width="430" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Alloy" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OEm-k8-Yvr">
+                    <rect key="frame" x="0.0" y="15" width="430" height="30"/>
+                    <color key="backgroundColor" red="0.9647059440612793" green="0.9647059440612793" blue="0.9647059440612793" alpha="1" colorSpace="deviceRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ListButton" translatesAutoresizingMaskIntoConstraints="NO" id="naW-Na-TWD">
+                    <rect key="frame" x="400" y="15" width="30" height="30"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="I3a-Gg-GPM"/>
+                        <constraint firstAttribute="height" constant="30" id="ovz-S6-aRo"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labelfasdf" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLc-WN-wOH">
+                    <rect key="frame" x="0.0" y="0.0" width="392" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="dOj-Jv-aN0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxP-go-Ewh">
+                    <rect key="frame" x="400" y="16" width="30" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="D55-V4-OOz"/>
+                        <constraint firstAttribute="width" constant="30" id="lPQ-D4-qHT"/>
+                    </constraints>
+                    <state key="normal" image="MinusButton">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="decreaseValue:" destination="-1" eventType="touchUpInside" id="UeC-qy-42y"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKv-mT-cLL">
+                    <rect key="frame" x="369" y="16" width="30" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="Kmm-IS-PrE"/>
+                        <constraint firstAttribute="height" constant="28" id="i4H-Sr-FI2"/>
+                    </constraints>
+                    <state key="normal" image="PlusButton">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="addValue:" destination="-1" eventType="touchUpInside" id="sal-os-uAh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.86666673419999996" green="0.86666673419999996" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="naW-Na-TWD" secondAttribute="trailing" id="0KK-S3-Ooo"/>
+                <constraint firstItem="CLc-WN-wOH" firstAttribute="top" secondItem="BLy-Gc-pcR" secondAttribute="top" id="1Dv-gi-hoB"/>
+                <constraint firstAttribute="trailing" secondItem="CLc-WN-wOH" secondAttribute="trailing" constant="38" id="27a-0G-UxV"/>
+                <constraint firstAttribute="trailing" secondItem="fxP-go-Ewh" secondAttribute="trailing" id="G4k-GO-eCC"/>
+                <constraint firstAttribute="bottom" secondItem="OEm-k8-Yvr" secondAttribute="bottom" constant="15" id="HAR-J1-qj1"/>
+                <constraint firstAttribute="trailing" secondItem="OEm-k8-Yvr" secondAttribute="trailing" id="JY6-Qz-dik"/>
+                <constraint firstItem="CLc-WN-wOH" firstAttribute="leading" secondItem="BLy-Gc-pcR" secondAttribute="leading" id="M3i-TR-Ocf"/>
+                <constraint firstItem="OEm-k8-Yvr" firstAttribute="top" secondItem="BLy-Gc-pcR" secondAttribute="top" constant="15" id="eA5-w1-X3O"/>
+                <constraint firstItem="OEm-k8-Yvr" firstAttribute="leading" secondItem="BLy-Gc-pcR" secondAttribute="leading" id="lXu-yQ-SBE"/>
+                <constraint firstItem="fxP-go-Ewh" firstAttribute="leading" secondItem="rKv-mT-cLL" secondAttribute="trailing" constant="1" id="m2G-fm-Kq5"/>
+                <constraint firstItem="fxP-go-Ewh" firstAttribute="centerY" secondItem="naW-Na-TWD" secondAttribute="centerY" id="v35-et-O89"/>
+                <constraint firstItem="rKv-mT-cLL" firstAttribute="centerY" secondItem="fxP-go-Ewh" secondAttribute="centerY" id="xln-Dv-abP"/>
+                <constraint firstItem="OEm-k8-Yvr" firstAttribute="centerY" secondItem="naW-Na-TWD" secondAttribute="centerY" id="yMW-aj-sJf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ListButton" width="40" height="40"/>
+        <image name="MinusButton" width="40" height="40"/>
+        <image name="PlusButton" width="40" height="40"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
