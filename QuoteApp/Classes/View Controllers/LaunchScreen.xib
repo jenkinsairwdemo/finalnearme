@@ -13,9 +13,12 @@
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="companylogo" translatesAutoresizingMaskIntoConstraints="NO" id="c6t-sB-0fx">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" red="0.0" green="0.63137254901960782" blue="0.87058823529411766" alpha="1" colorSpace="deviceRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="centerY" secondItem="c6t-sB-0fx" secondAttribute="centerY" id="HjO-aJ-c0q"/>
                 <constraint firstAttribute="centerX" secondItem="c6t-sB-0fx" secondAttribute="centerX" id="iXZ-eD-MQg"/>
@@ -23,6 +26,6 @@
         </view>
     </objects>
     <resources>
-        <image name="companylogo" width="327" height="110"/>
+        <image name="companylogo" width="327" height="183"/>
     </resources>
 </document>

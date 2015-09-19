@@ -14,7 +14,6 @@
  * the License. *
  */
 
-// Test 1500
 
 #import "AppDelegate.h"
 #import "SignInViewController.h"
@@ -45,12 +44,12 @@
 #ifdef DEBUG
 #endif
 #if 0
-    //---------------------------Kinvey: Setup configuration-------------------------//
-    
-    
-    //------------------------------------------------------------------------------//
     //Kinvey: Setup configuration for Connect
-
+    [KCSClient configureLoggingWithNetworkEnabled:YES
+                                     debugEnabled:YES
+                                     traceEnabled:YES
+                                   warningEnabled:YES
+                                     errorEnabled:YES];
     
 	
 #endif

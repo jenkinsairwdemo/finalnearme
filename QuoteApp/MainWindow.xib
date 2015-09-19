@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIApplication">
@@ -20,18 +20,20 @@
                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="companylogo" translatesAutoresizingMaskIntoConstraints="NO" id="kl0-Zi-V7X">
-                        <rect key="frame" x="224" y="473" width="320" height="79"/>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="qeu-lu-xtQ">
+                        <rect key="frame" x="374" y="910" width="20" height="20"/>
+                    </activityIndicatorView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="companylogo" translatesAutoresizingMaskIntoConstraints="NO" id="kl0-Zi-V7X">
+                        <rect key="frame" x="219" y="415" width="331" height="194"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="320" id="Df6-LM-ZdK"/>
                             <constraint firstAttribute="height" constant="79" id="Xff-bR-yRM"/>
                         </constraints>
                     </imageView>
-                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="qeu-lu-xtQ">
-                        <rect key="frame" x="374" y="910" width="20" height="20"/>
-                    </activityIndicatorView>
                 </subviews>
-                <color key="backgroundColor" cyan="0.0" magenta="0.63" yellow="0.80000000000000004" black="0.14999999999999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                 <color key="tintColor" red="1" green="0.72941178080000002" blue="0.14901961389999999" alpha="1" colorSpace="deviceRGB"/>
                 <constraints>
                     <constraint firstItem="IYU-qp-ib0" firstAttribute="top" secondItem="qeu-lu-xtQ" secondAttribute="bottom" constant="94" id="7LP-3k-GGH"/>
@@ -67,6 +69,11 @@
         </customObject>
     </objects>
     <resources>
-        <image name="companylogo" width="327" height="110"/>
+        <image name="companylogo" width="327" height="183"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
 </document>

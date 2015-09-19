@@ -257,6 +257,10 @@
 											  }];
 }
 
+// ****************************----- Enter the Kinvey Code here ----------------------------------------------*********//
+
+
+
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
     NSURL* url = request.URL;
@@ -276,7 +280,7 @@
                                                                            self.completionBlock = nil;
                                                                        }
                                                                    }];
-
+                     
                  } else {
                      UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:LOC(ERROR)
                                                                          message: errorOrNil.localizedDescription ? errorOrNil.localizedDescription : LOC(ERR_SMTH_WENT_WRONG)
@@ -284,15 +288,21 @@
                                                                cancelButtonTitle:LOC(OKAY)
                                                                otherButtonTitles:nil];
                      [alertView show];
-
+                     
                  }
-            }];
+             }];
          }];
-
+        
         return NO;
     }
     return YES;
 }
+
+// Ready to commit
+
+
+
+//*************************** ------------------------------------------------------------------------------------*******//
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
     NSLog(@"Error in loading webview: %@", error);

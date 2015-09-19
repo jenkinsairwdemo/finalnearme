@@ -37,13 +37,6 @@
                                 <action selector="demoPress:" destination="-1" eventType="touchUpInside" id="Zpy-l5-Pp6"/>
                             </connections>
                         </button>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="companylogo" translatesAutoresizingMaskIntoConstraints="NO" id="QVC-h4-UMZ" userLabel="Logo View">
-                            <rect key="frame" x="99" y="200" width="310" height="80"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="310" id="57O-lg-6Mu"/>
-                                <constraint firstAttribute="height" constant="80" id="Td2-rG-Fqr"/>
-                            </constraints>
-                        </imageView>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CRl-JS-wKk" userLabel="Username Field">
                             <rect key="frame" x="114" y="741" width="280" height="30"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -85,8 +78,16 @@
                                 <action selector="pressedSignUp:" destination="-1" eventType="touchUpInside" id="B3y-ig-Mup"/>
                             </connections>
                         </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="companylogo" translatesAutoresizingMaskIntoConstraints="NO" id="QVC-h4-UMZ" userLabel="Logo View">
+                            <rect key="frame" x="99" y="186" width="310" height="193"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="310" id="57O-lg-6Mu"/>
+                                <constraint firstAttribute="height" constant="80" id="Td2-rG-Fqr"/>
+                            </constraints>
+                        </imageView>
                     </subviews>
-                    <color key="backgroundColor" red="0.81176477670000002" green="0.22745099660000001" blue="0.1294117719" alpha="1" colorSpace="deviceRGB"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstItem="bY3-GR-VKq" firstAttribute="centerX" secondItem="QVC-h4-UMZ" secondAttribute="centerX" id="02r-CJ-YJV"/>
                         <constraint firstItem="QVC-h4-UMZ" firstAttribute="top" relation="lessThanOrEqual" secondItem="bkT-D5-PkE" secondAttribute="top" priority="750" constant="200" id="1v7-cB-93c"/>
@@ -110,8 +111,8 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="0.81176477670669556" green="0.22745099663734436" blue="0.12941177189350128" alpha="1" colorSpace="deviceRGB"/>
-            <color key="tintColor" red="1" green="0.72941178080000002" blue="0.14901961389999999" alpha="1" colorSpace="deviceRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="bkT-D5-PkE" firstAttribute="top" secondItem="mvb-pq-axn" secondAttribute="top" id="2LV-ys-mUB"/>
                 <constraint firstAttribute="bottom" secondItem="bkT-D5-PkE" secondAttribute="bottom" id="YDi-gC-DRO"/>
@@ -120,7 +121,7 @@
         </view>
     </objects>
     <resources>
-        <image name="companylogo" width="327" height="110"/>
+        <image name="companylogo" width="327" height="183"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
