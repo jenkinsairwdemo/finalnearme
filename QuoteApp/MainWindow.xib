@@ -23,10 +23,10 @@
                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="qeu-lu-xtQ">
                         <rect key="frame" x="374" y="910" width="20" height="20"/>
                     </activityIndicatorView>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="companylogo" translatesAutoresizingMaskIntoConstraints="NO" id="kl0-Zi-V7X">
-                        <rect key="frame" x="219" y="415" width="331" height="194"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="companylogo" translatesAutoresizingMaskIntoConstraints="NO" id="kl0-Zi-V7X">
+                        <rect key="frame" x="198" y="392" width="372" height="239"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="320" id="Df6-LM-ZdK"/>
                             <constraint firstAttribute="height" constant="79" id="Xff-bR-yRM"/>

@@ -78,9 +78,10 @@
                                 <action selector="pressedSignUp:" destination="-1" eventType="touchUpInside" id="B3y-ig-Mup"/>
                             </connections>
                         </button>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="companylogo" translatesAutoresizingMaskIntoConstraints="NO" id="QVC-h4-UMZ" userLabel="Logo View">
-                            <rect key="frame" x="99" y="186" width="310" height="193"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="companylogo" translatesAutoresizingMaskIntoConstraints="NO" id="QVC-h4-UMZ" userLabel="Logo View">
+                            <rect key="frame" x="-3" y="40" width="515" height="300"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="310" id="57O-lg-6Mu"/>
                                 <constraint firstAttribute="height" constant="80" id="Td2-rG-Fqr"/>
