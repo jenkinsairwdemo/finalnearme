@@ -194,7 +194,7 @@
 
 - (void)startListening{
     
-    //Kinvey: Listen notification about kinvey network activity
+    //Kinvey: Listen notification about kinvey network activity test
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(show)
                                                  name:KCSNetworkConnectionDidStart
