@@ -79,7 +79,7 @@
                             </connections>
                         </button>
                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="companylogo" translatesAutoresizingMaskIntoConstraints="NO" id="QVC-h4-UMZ" userLabel="Logo View">
-                            <rect key="frame" x="-3" y="40" width="515" height="300"/>
+                            <rect key="frame" x="-3" y="212" width="515" height="300"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
@@ -122,7 +122,7 @@
         </view>
     </objects>
     <resources>
-        <image name="companylogo" width="327" height="183"/>
+        <image name="companylogo" width="327" height="327"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
