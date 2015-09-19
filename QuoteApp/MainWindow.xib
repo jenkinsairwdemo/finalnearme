@@ -69,7 +69,7 @@
         </customObject>
     </objects>
     <resources>
-        <image name="companylogo" width="327" height="327"/>
+        <image name="companylogo" width="327" height="183"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
