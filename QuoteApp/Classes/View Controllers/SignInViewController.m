@@ -260,7 +260,6 @@
 // ****************************----- Enter the Kinvey Code here ----------------------------------------------*********//
 
 
-
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
     NSURL* url = request.URL;
@@ -297,6 +296,7 @@
     }
     return YES;
 }
+
 
 // Ready to commit
 
